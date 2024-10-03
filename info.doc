@@ -1,1 +1,6 @@
+This is the code for my Bluetooth Spectrum analyzer.
+If you want to skip the arduino compiling...simply use the webbroser programmer.
+Carefull this works with Microsoft Edge or chrome but it does not work with firefox!
+Simply connect your ESP32 DOIT Devkit ! to your usb port and follow the instructions on:
+https://donnersm.github.io/BluetoothAnalyzer/flash.html
 
