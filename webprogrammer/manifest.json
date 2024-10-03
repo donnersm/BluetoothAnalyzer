@@ -1,1 +1,16 @@
+{
+  "name": "Bluetooth Analyzer with 3584 LEDs on a ESP32",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "improv": false,
+      "parts": [
+        { "path": "bootloader_dio_80m_1.0.6.bin", "offset": 4096 },
+        { "path": "bluetooth-spectrum-analyzer_1.0.ino.partitions.bin", "offset": 32768 },
+        { "path": "boot_app0_1.0.6.bin", "offset": 57344 },
+        { "path": "bluetooth-spectrum-analyzer_1.0.ino.bin", "offset": 65536 }
+      ]
+    }
+  ]
+}
 
